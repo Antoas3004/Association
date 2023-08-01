@@ -1,0 +1,40 @@
+//Frist class instance variable  
+class anto {
+	// instance variable
+	int age;
+	String name;
+	char initial;
+
+	// object creation for second class to assign a value
+	eduction as = new eduction();
+
+	// Simple method
+	void a() {
+		System.out.println(initial + " " + name + " " + age);
+	}
+}
+
+//Second class 
+class eduction {
+	// instance variable
+	double cgpa;
+
+	// method
+	void n() {
+		System.out.println("complete BE");
+	}
+}
+
+//main class
+public class Association_1 {
+
+	public static void main(String[] args) {
+		anto A = new anto();
+		A.age = 24;
+		A.name = "Anto";
+		A.initial = 'A';
+		A.as.cgpa = 6.5;
+		A.a();
+		A.as.n();
+	}
+}
